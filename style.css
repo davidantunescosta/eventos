@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/*Menu de Navegação*/
+.container-header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f1e1f;
+  position: fixed;
+  padding: 50px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-facebook a:hover {
+  background: #7C97C1;
+  border-radius: 10px; 
+}
+
+.nav-instagram a:hover {
+  background: #F285A1; 
+  border-radius: 10px; 
+}
+
+.nav-whatsapp a:hover {
+  background: #70D68E;
+  border-radius: 10px; 
+}
+
+.container-header .lista-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-header .lista-menu li{
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 200ms ease-in;
+}
+
+.container-header .lista-menu a:hover {
+  background-color: black;
+  border-bottom: 4px solid lightcyan;
+}
+
+/*Página Inicial*/
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(img/backgroud.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container h1 {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: white;
+  font-size: 16px;
+}
+
+/*Rede Sociais*/
+.contato {
+  background-color: #1f1e1f;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato h3 {
+  font-size: 32px;
+}
+
+.contato .redeSociais {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.contato .redeSociais 
+.item-facebook,.item-instagram, .item-whatsapp  {
+  margin-bottom: 20px;
+}
+
+.contato .redeSociais .item .item-facebook.item-instagram .item-whatsapp, a {
+  color: white;
+  padding: 6px;
+}
+
+.item-facebook a:hover {
+  background: #7C97C1;
+  border-radius: 10px; 
+}
+
+.item-instagram a:hover {
+  background: #F285A1; 
+  border-radius: 10px; 
+}
+
+.item-whatsapp a:hover {
+  background: #70D68E;
+  border-radius: 10px; 
+}
+
+/*Footer*/
+footer {
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+footer span {
+  display: flex;
+  flex-direction: column;
+}
