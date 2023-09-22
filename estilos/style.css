@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -74,7 +76,7 @@ html {
 .container {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(img/backgroud.jpg);
+  background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(../img/backgroud.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,4 +167,55 @@ footer {
 footer span {
   display: flex;
   flex-direction: column;
+}
+/*============================================================================
+ Final paginainicial
+===============================================================================*/
+
+/*============================================================================
+ Primeiro Andar
+===============================================================================*/
+
+/*Slider*/
+section.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+}
+
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input, .img-mobile {
+  display: none;
+}
+
+.slide-box {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.slide-box img {
+  width: 100%;
+}
+
+.nav-manual {
+  position: absolute;
+  width: 100%;
+  margin-top: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-manual .manual-btn {
+  border: 1px solid #ff0054;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
