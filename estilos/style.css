@@ -23,8 +23,10 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: #1f1e1f;
-  position: fixed;
   padding: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .logo {
@@ -171,51 +173,3 @@ footer span {
 /*============================================================================
  Final paginainicial
 ===============================================================================*/
-
-/*============================================================================
- Primeiro Andar
-===============================================================================*/
-
-/*Slider*/
-section.slider {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  padding: 0 !important;
-}
-
-.slider-content {
-  width: 400%;
-  height: auto;
-  display: flex;
-}
-
-.slider-content input, .img-mobile {
-  display: none;
-}
-
-.slide-box {
-  width: 25%;
-  height: auto;
-  position: relative;
-  text-align: center;
-}
-
-.slide-box img {
-  width: 100%;
-}
-
-.nav-manual {
-  position: absolute;
-  width: 100%;
-  margin-top: 35%;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-manual .manual-btn {
-  border: 1px solid #ff0054;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-}
