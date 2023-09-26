@@ -1,3 +1,4 @@
+
   var radio = document.querySelector('.manual-btn')
   var cont = 1
 
@@ -15,4 +16,5 @@ function proximaImg(){
 
   document.getElementById('radio' +cont).checked = true
 }
+
 
