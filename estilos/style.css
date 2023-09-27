@@ -12,9 +12,6 @@
 html{
   width: 100vw;
   height: 100vh;
-}
-
-body {
   overflow-x: hidden;
 }
 
@@ -198,6 +195,10 @@ footer span {
 }
 
 @media (max-width: 999px) {
+
+  body, html {
+   overflow-x: hidden;
+  }
 
   .nav-social {
     display: none;
