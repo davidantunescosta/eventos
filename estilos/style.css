@@ -1,17 +1,18 @@
 @charset "UTF-8";
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   border: none;
   list-style: none;
   text-decoration: none;
 }
 
-html {
+html, body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 /*Menu de Navegação*/
@@ -233,6 +234,7 @@ footer span {
   footer h4 {
     display: flex;
     flex-direction: column;
+
   }
 @keyframes navLinkFade {
   from {
