@@ -194,6 +194,28 @@ footer span {
 }
 
 @media (max-width: 900px) {
+  .container h1,
+  .contato h3 {
+    text-align: center;
+  }
+
+  .container p {
+    text-align: justify;
+  }
+
+  .containe-sobre .sobre-local h2 {
+    text-align: center;
+  }
+
+  .containe-sobre .sobre-local p {
+    text-align: justify;
+  }
+
+  footer {
+    font-size: 15px;
+    text-align: center;
+  }
+
 
   body, html {
    overflow-x: hidden;
@@ -228,15 +250,6 @@ footer span {
   transform: translateX(0);
 }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer h4 {
-    display: flex;
-    flex-direction: column;
-  }
 @keyframes navLinkFade {
   from {
     opacity: 0;
