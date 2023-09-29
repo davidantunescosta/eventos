@@ -137,7 +137,13 @@ section.slider {
   }
 
   .container-sobre .sobre-local h2 {
-    font-size: 48px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .container-sobre .sobre-local p {
+    text-align: center;
+    font-size: 20px;
   }
 
   .container-sobre .sobre-local,
