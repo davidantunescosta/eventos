@@ -27,8 +27,8 @@ section.slider {
   position: relative;
   text-align: center;
   transition: 1s;
-  padding-bottom: 28px;
-  background: #1f1e1f;
+  padding-bottom: 30px;
+  background: rgba(2, 20, 122, 0.548);
 }
 
 .slide-box img {
@@ -95,8 +95,10 @@ section.slider {
 .container-sobre .container-video-text{
   display: flex;
   align-items: center;
-  background-color: #1f1e1f;
+  background: rgba(2, 20, 122, 0.548);
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container-sobre .sobre-local {
@@ -118,7 +120,7 @@ section.slider {
 }
 
 .container-sobre .video iframe {
-  box-shadow: 5px 5px 10px 2px rgba(255, 255, 255, 0.596)
+  box-shadow: 5px 5px 10px 2px rgba(255, 255, 255, 0.596);
 }
 
 @media screen and (max-width: 830px) {

@@ -103,19 +103,20 @@ html{
 
 .container h1 {
   color: white;
-  font-size: 32px;
+  font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .container p {
   color: white;
-  font-size: 16px;
+  font-size: 25px;
+  margin: 20px;
 }
 
 /*Rede Sociais*/
 .contato {
-  background-color: #1f1e1f;
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgba(2, 20, 122, 0.548) 0%, rgba(4,0,4,1) 100% );
   width: 100%;
   padding: 20px 10px 20px 10px;
   color: white;
@@ -124,14 +125,14 @@ html{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  border-top: solid rgba(255, 255, 255, 0.596) ;
-  box-shadow: 5px 5px 10px 2px rgba(255, 255, 255, 0.596)
+  /*border-top: solid rgba(255, 255, 255, 0.596) ;
+  box-shadow: 5px 5px 10px 2px rgba(255, 255, 255, 0.596)*/
 }
 
 .contato h3 {
   font-size: 32px;
-  border-bottom: solid  rgba(255, 255, 255, 0.596);
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.137)
+  /*border-bottom: solid  rgba(255, 255, 255, 0.596);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.137)*/
 }
 
 .contato .redeSociais {
@@ -205,15 +206,20 @@ footer span {
     text-align: center;
   }
 
-  .container p {
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .contatoainer p {
+    font-size: 16px;
     text-align: justify;
   }
 
-  .containe-sobre .sobre-local h2 {
+  .contatoaine-sobre .sobre-local h2 {
     text-align: center;
   }
 
-  .containe-sobre .sobre-local p {
+  .contatoaine-sobre .sobre-local p {
     text-align: justify;
   }
 
