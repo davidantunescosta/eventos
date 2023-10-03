@@ -210,16 +210,17 @@ footer span {
     font-size: 28px;
   }
 
-  .contatoainer p {
+  .container p {
     font-size: 16px;
     text-align: justify;
   }
 
-  .contatoaine-sobre .sobre-local h2 {
+  .container-sobre .sobre-local h2 {
     text-align: center;
   }
 
-  .contatoaine-sobre .sobre-local p {
+  .container-sobre
+   .sobre-local p {
     text-align: justify;
   }
 
